@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="test"></div>
+    <div id="select">
+        <span id="log-in">log in</span>
+        <span id="sign-up">sign up</span>
+    </div>
+    <div id="form-container">
+        <div id="slider">
+            <form action="" id="form log-in-form">
+                <input type="text"  placeholder="user name" class="username">
+                <input type="password"  placeholder="password" class="password">
+                <button>log in</button>
+           </form>
+            <form action="" id="form sign-up-form">
+                <input type="text" placeholder="first name" id="firstname">
+                <input type="text"  placeholder="last name" id="lastname">
+                <input type="email"  placeholder="email" id="email">
+                <div id="number-container">
+                    <input type="text" list="codes" id="dialing-code">
+                    <datalist id="codes">
+                    </datalist>
+                    <input type="text"  placeholder="mobile number" id="number">
+                </div>
+                <input type="text"  placeholder="user name" class="username">
+                <input type="password"  placeholder="password" class="password">
+                <input type="password"  placeholder=" confirm password"  class="password">
+                <button>sign up</button>
+            </form>
+        </div>
+      
+       
+    </div>
+     <div id="errors">wrong name</div>
+    <script src="script.js"></script>
+</body>
+</html>
