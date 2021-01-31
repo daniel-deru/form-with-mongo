@@ -1,0 +1,18 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "this is a form validation with a server and database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "daniel de ru",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.14",
+    "nodemon": "^2.0.7"
+  }
+}
